@@ -1,4 +1,4 @@
-t {
+{
   "name": "com.cerealdevelopment.timemanagement",
   "displayName": "TimeManagement",
   "description": "Unity Monobehaviour's Update() optimization",
