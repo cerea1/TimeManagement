@@ -31,4 +31,11 @@ namespace CerealDevelopment.TimeManagement
     {
         void OnFixedUpdate();
     }
+
+    public interface ISeparateThreadUpdatable : IUnityComponent
+    {
+        void OnMainThreadUpdate();
+        void OnSeparateThreadUpdate();
+        void OnSeparateThreadComplete();
+    }
 }
