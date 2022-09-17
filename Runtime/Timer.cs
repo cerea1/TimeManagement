@@ -115,9 +115,9 @@ namespace CerealDevelopment.TimeManagement
         
         private void OnUpdate()
         {
-            ((IUpdatable)this).OnUpdate();
+            ((IUpdatable)this).OnUpdate(Time.deltaTime);
         }
-        void IUpdatable.OnUpdate()
+        void IUpdatable.OnUpdate(float deltaTime)
         {
             RecalculateTimings();
             if (progress >= 1f)

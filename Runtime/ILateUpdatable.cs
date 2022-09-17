@@ -14,7 +14,7 @@ namespace CerealDevelopment.TimeManagement
     /// </summary>
     public interface IUpdatable : IUnityComponent
     {
-        void OnUpdate();
+        void OnUpdate(float deltaTime);
     }
     /// <summary>
     /// LateUpdate interface to use with <see cref="TimeManager"/>

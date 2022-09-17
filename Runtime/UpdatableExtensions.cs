@@ -56,15 +56,5 @@
         {
             TimeManager.RemoveFixedUpdatable(updatable);
         }
-
-        /// <summary>
-        /// Invokes <see cref="IUpdatable.OnUpdate"/>
-        /// </summary>
-        /// <param name="updatable"></param>
-        public static void OnUpdate(this IUpdatable updatable)
-        {
-            updatable.OnUpdate();
-        }
-
     }
 }
